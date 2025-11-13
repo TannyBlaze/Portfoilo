@@ -1,0 +1,190 @@
+body.dark {
+    --bg: #0f1115;
+    --card: #1c1f26;
+    --muted: #9aa1af;
+    --accent: #4b7bec;
+    --accent-2: #5e9cff;
+    --text: #f1f3f5;
+}
+
+body.ocean {
+    --bg: #071730;
+    --card: #0e2557;
+    --muted: #a4c3ff;
+    --accent: #1e90ff;
+    --accent-2: #00e0ff;
+    --text: #e8f3ff;
+}
+
+body.inferno {
+    --bg: #1a0303;
+    --card: #3b0a0a;
+    --muted: #ffb7b7;
+    --accent: #ff3131;
+    --accent-2: #ff6f61;
+    --text: #fff2f2;
+}
+
+body.violet {
+    --bg: #16051f;
+    --card: #2c0a40;
+    --muted: #d7b3ff;
+    --accent: #b84dff;
+    --accent-2: #7c5cff;
+    --text: #f4e8ff;
+}
+
+body.earth {
+    --bg: #e9e4da;
+    --card: #fffaf2;
+    --muted: #6a5d4d;
+    --accent: #b9915e;
+    --accent-2: #7d9c5b;
+    --text: #22201c;
+}
+
+body.aqua {
+    --bg: #e8fffb;
+    --card: #ffffff;
+    --muted: #5b7770;
+    --accent: #00bfa6;
+    --accent-2: #7ce7dc;
+    --text: #052d26;
+}
+
+body.cyber {
+    --bg: #050011;
+    --card: #110022;
+    --muted: #b875ff;
+    --accent: #ff00cc;
+    --accent-2: #00ffee;
+    --text: #e6e6fa;
+}
+
+body.sunset {
+    --bg: #2a0a05;
+    --card: #521c0a;
+    --muted: #fcbfae;
+    --accent: #ff6a00;
+    --accent-2: #ffb347;
+    --text: #fff3e6;
+}
+
+body.forest {
+    --bg: #081910;
+    --card: #102d1b;
+    --muted: #aacbb5;
+    --accent: #00a86b;
+    --accent-2: #58d68d;
+    --text: #e8fff2;
+}
+
+body.rose {
+    --bg: #fff6f8;
+    --card: #fff0f2;
+    --muted: #9b6b6b;
+    --accent: #e195ab;
+    --accent-2: #f7cad0;
+    --text: #3b1d21;
+}
+
+body.graphite {
+    --bg: #1b1b1b;
+    --card: #2c2c2c;
+    --muted: #b5b5b5;
+    --accent: #8c8c8c;
+    --accent-2: #d1d1d1;
+    --text: #f0f0f0;
+}
+
+body.neon {
+    --bg: #08001a;
+    --card: #150033;
+    --muted: #d2a8ff;
+    --accent: #ff00ff;
+    --accent-2: #00ffff;
+    --text: #f8e9ff;
+}
+
+body.terminal {
+    --bg: #000000;
+    --card: #0d0d0d;
+    --muted: #00ff99;
+    --accent: #00ff00;
+    --accent-2: #99ff00;
+    --text: #ccffcc;
+}
+
+body.sakura {
+    --bg: #fff0f5;
+    --card: #ffe4ef;
+    --muted: #c97a8b;
+    --accent: #ffb7c5;
+    --accent-2: #ffa3b5;
+    --text: #4b1f2a;
+}
+
+body.solar {
+    --bg: #fff6e0;
+    --card: #ffedd1;
+    --muted: #b37d00;
+    --accent: #ffb400;
+    --accent-2: #ff6f00;
+    --text: #2e1a00;
+}
+
+body.arctic {
+    --bg: #f0fbff;
+    --card: #e1f6ff;
+    --muted: #5c7991;
+    --accent: #00aaff;
+    --accent-2: #8feeff;
+    --text: #032030;
+}
+
+body.midnight {
+    --bg: #0b0018;
+    --card: #15002b;
+    --muted: #b89aff;
+    --accent: #7a3cff;
+    --accent-2: #c084ff;
+    --text: #efe9ff;
+}
+
+body.emerald {
+    --bg: #e8fff4;
+    --card: #d4f5e8;
+    --muted: #4f8b70;
+    --accent: #2ecc71;
+    --accent-2: #00b894;
+    --text: #063c2e;
+}
+
+body.obsidian {
+    --bg: #0d0d0d;
+    --card: #1a1a1a;
+    --muted: #8c8c8c;
+    --accent: #ff5c5c;
+    --accent-2: #ff9f43;
+    --text: #f2f2f2;
+}
+
+/*Call of Duty Mobile Inspired*/
+body.tactical {
+    --bg: #0b0b0b;
+    --card: #1a1a1a;
+    --muted: #b2b2b2;
+    --accent: #f5c842;
+    --accent-2: #ffdf6b;
+    --text: #f2f2f2;
+}
+
+/*Black Clover Inspired*/
+body.arcane {
+    --bg: #080510;
+    --card: #120a20;
+    --muted: #b6a8cc;
+    --accent: #6b4cf6;
+    --accent-2: #00d4ff;
+    --text: #f4efff;
+}
