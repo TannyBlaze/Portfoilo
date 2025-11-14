@@ -188,3 +188,31 @@ body.arcane {
     --accent-2: #00d4ff;
     --text: #f4efff;
 }
+
+/*Ordeal Inspired*/
+body.ordeal {
+    --bg: #0d0608;
+    --card: #1a0b0e;
+    --muted: #c7a5a5;
+    --accent: #b9121b;
+    --accent-2: #ff4d4d;
+    --text: #f7f0f0;
+}
+
+body.onyx {
+    --bg: #07070d;
+    --card: #11111d;
+    --muted: #9a97b8;
+    --accent: #5a4dff;
+    --accent-2: #8f7cff;
+    --text: #efecff;
+}
+
+body.nova {
+    --bg: #1a0012;
+    --card: #2e0021;
+    --muted: #ffb3d9;
+    --accent: #ff2bc2;
+    --accent-2: #ff8e42;
+    --text: #ffeefe;
+}
