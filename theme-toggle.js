@@ -2,7 +2,7 @@ const btn = document.getElementById("theme-toggle");
 const label = btn.querySelector("span");
 
 const themes = [
-    "", "dark", "ocean", "inferno", "violet", "earth", "aqua", "cyber",
+    "", "dark", "ocean", "inferno", "violet", "earth", "aqua", "cyberpunk",
     "sunset", "forest", "rose", "graphite", "neon", "terminal", "sakura",
     "solar", "arctic", "midnight", "emerald", "obsidian", "tactical",
     "arcane", "ordeal", "onyx", "nova"
@@ -30,3 +30,28 @@ btn.addEventListener("click", () => {
 });
 
 applyTheme(current);
+
+document.addEventListener("DOMContentLoaded", () => {
+    const toast = document.getElementById("theme-toast");
+
+    function showToast() {
+        toast.classList.remove("hidden");
+
+        setTimeout(() => {
+            toast.classList.add("show");
+        }, 50);
+
+        setTimeout(() => {
+            toast.classList.remove("show");
+
+            setTimeout(() => {
+                toast.classList.add("hidden");
+            }, 400);
+        }, 5000);
+    }
+
+    setTimeout(showToast, 1200);
+
+    setInterval(showToast, 60000);
+});
+
