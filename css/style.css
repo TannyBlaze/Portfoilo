@@ -1,3 +1,7 @@
+html {
+    color-scheme: light dark;
+}
+
 :root {
     --radius: 14px;
     --transition: 0.3s ease;
@@ -35,6 +39,7 @@ header {
     gap: 28px;
     align-items: center;
     margin-bottom: 28px;
+    cursor: default;
 }
 
 .avatar {
@@ -98,6 +103,7 @@ main {
     border: 1px solid rgba(255, 255, 255, 0.05);
     box-shadow: 0 6px 20px rgba(2, 6, 23, 0.6);
     transition: background var(--transition);
+    cursor: default;
 }
 
 .muted {
@@ -109,6 +115,7 @@ footer {
     text-align: center;
     color: var(--muted);
     font-size: 13px;
+    cursor: default;
 }
 
 @media (max-width: 900px) {
@@ -257,6 +264,7 @@ footer {
     transform: translateX(50px);
     transition: all 0.4s ease;
     z-index: 9999;
+    cursor: default;
 }
 
 .toast.show {
@@ -274,4 +282,8 @@ footer {
 
 #theme-toast i.fa-fire-flame-curved {
     color: #f97316;
+}
+
+.fa-heart {
+    color: #e63946;
 }

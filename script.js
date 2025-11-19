@@ -2,24 +2,31 @@ const btn = document.getElementById("theme-toggle");
 const label = btn.querySelector("span");
 
 const themes = [
-    "", "dark", "ocean", "inferno", "violet", "earth", "aqua", "cyberpunk",
-    "sunset", "forest", "rose", "graphite", "neon", "terminal", "sakura",
-    "solar", "arctic", "midnight", "emerald", "obsidian", "tactical",
-    "arcane", "ordeal", "onyx", "nova"
+    "", "dark", "ocean", "aqua", "forest", "earth",
+    "arctic", "solar", "sunset", "inferno", "rose",
+    "sakura", "pastel", "prism", "graphite", "neon",
+    "cyberpunk", "terminal", "tactical", "violet",
+    "arcane", "aether", "midnight", "onyx", "cosmic",
+    "eclipse", "nova", "obsidian", "rust"
 ];
 
 const themeNames = [
-    "Light", "Dark", "Ocean", "Inferno", "Violet", "Earth", "Aqua", "Cyberpunk",
-    "Sunset", "Forest", "Rose", "Graphite", "Neon", "Terminal", "Sakura",
-    "Solar", "Arctic", "Midnight", "Emerald", "Obsidian", "Tactical",
-    "Arcane", "Ordeal", "Onyx", "Nova"
+    "Light", "Dark", "Ocean", "Aqua", "Forest", "Earth",
+    "Arctic", "Solar", "Sunset", "Inferno", "Rose",
+    "Sakura", "Pastel", "Prism", "Graphite", "Neon",
+    "Cyberpunk", "Terminal", "Tactical", "Violet",
+    "Arcane", "Aether", "Midnight", "Onyx", "Cosmic",
+    "Eclipse", "Nova", "Obsidian", "Rust"
 ];
 
 
 let current = parseInt(localStorage.getItem("themeIndex") || 0);
 
 function applyTheme(index) {
-    document.body.className = themes[index];
+    document.body.classList.remove(...themes.filter(t => t !== ""));
+    if (themes[index] !== "") {
+        document.body.classList.add(themes[index]);
+    }
     label.textContent = `Theme: ${themeNames[index]}`;
     localStorage.setItem("themeIndex", index);
 }
