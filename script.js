@@ -1,5 +1,7 @@
-const btn = document.getElementById("theme-toggle");
-const label = btn.querySelector("span");
+const cycleBtn = document.getElementById("theme-cycle");
+const arrowBtn = document.getElementById("theme-arrow");
+const menu = document.getElementById("theme-menu");
+const label = cycleBtn.querySelector("span");
 
 const themes = [
     "", "dark", "ocean", "aqua", "forest", "earth",
@@ -7,7 +9,9 @@ const themes = [
     "sakura", "pastel", "prism", "graphite", "neon",
     "cyberpunk", "terminal", "tactical", "violet",
     "arcane", "aether", "midnight", "onyx", "cosmic",
-    "eclipse", "nova", "obsidian", "rust"
+    "eclipse", "nova", "obsidian", "rust", "icecream",
+    "toxic", "royal", "coffee", "lime", "glacier",
+    "bloodmoon", "gold", "mint", "shadow",
 ];
 
 const themeNames = [
@@ -16,7 +20,9 @@ const themeNames = [
     "Sakura", "Pastel", "Prism", "Graphite", "Neon",
     "Cyberpunk", "Terminal", "Tactical", "Violet",
     "Arcane", "Aether", "Midnight", "Onyx", "Cosmic",
-    "Eclipse", "Nova", "Obsidian", "Rust"
+    "Eclipse", "Nova", "Obsidian", "Rust", "Ice Cream",
+    "Toxic", "Royal", "Coffee", "Lime", "Glacier",
+    "Blood Moon", "Gold", "Mint", "Shadow",
 ];
 
 
@@ -31,9 +37,32 @@ function applyTheme(index) {
     localStorage.setItem("themeIndex", index);
 }
 
-btn.addEventListener("click", () => {
+cycleBtn.onclick = () => {
     current = (current + 1) % themes.length;
     applyTheme(current);
+};
+
+arrowBtn.onclick = (e) => {
+    e.stopPropagation();
+    menu.classList.toggle("hidden");
+};
+
+themes.forEach((_, i) => {
+    const opt = document.createElement("div");
+    opt.className = "theme-option";
+    opt.textContent = themeNames[i];
+
+    opt.onclick = () => {
+        current = i;
+        applyTheme(i);
+        menu.classList.add("hidden");
+    };
+
+    menu.appendChild(opt);
+});
+
+document.addEventListener("click", () => {
+    menu.classList.add("hidden");
 });
 
 applyTheme(current);

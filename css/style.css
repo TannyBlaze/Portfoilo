@@ -147,6 +147,70 @@ footer {
     color: white;
 }
 
+.theme-dropdown {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+}
+
+.theme-combined {
+    display: flex;
+    border-radius: 50px;
+    overflow: hidden;
+    background: var(--card);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.theme-main {
+    background: transparent;
+    border: none;
+    padding: 8px 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    color: var(--muted);
+}
+
+.theme-arrow {
+    background: transparent;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: var(--muted);
+}
+
+.theme-main:hover,
+.theme-arrow:hover {
+    background: var(--accent);
+    color: white;
+}
+
+.theme-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    background: var(--card);
+    border-radius: 12px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.theme-option {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.theme-option:hover {
+    background: var(--accent);
+    color: white;
+}
+
 .about h3 {
     margin-top: 20px;
     font-size: 20px;

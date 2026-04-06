@@ -14,9 +14,18 @@
     </head>
 
     <body>
-        <button class="theme-btn" id="theme-toggle">
-            <i class="fa-solid fa-palette"></i> <span></span>
-        </button>
+        <div class="theme-dropdown">
+            <div class="theme-combined">
+                <button id="theme-cycle" class="theme-main">
+                    <i class="fa-solid fa-palette"></i>
+                    <span></span>
+                </button>
+                <button id="theme-arrow" class="theme-arrow">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+            </div>
+            <div id="theme-menu" class="theme-menu hidden"></div>
+        </div>
         <div class="site">
             <div class="site-wrap">
                 <header>
