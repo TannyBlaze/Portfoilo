@@ -4,36 +4,56 @@ const menu = document.getElementById("theme-menu");
 const label = cycleBtn.querySelector("span");
 
 const themes = [
-    "", "dark", "ocean", "aqua", "forest", "earth",
-    "arctic", "solar", "sunset", "inferno", "rose",
-    "sakura", "pastel", "prism", "graphite", "neon",
-    "cyberpunk", "terminal", "tactical", "violet",
-    "arcane", "aether", "midnight", "onyx", "cosmic",
-    "eclipse", "nova", "obsidian", "rust", "icecream",
-    "toxic", "royal", "coffee", "lime", "glacier",
-    "bloodmoon", "gold", "mint", "shadow",
-];
-
-const themeNames = [
-    "Light", "Dark", "Ocean", "Aqua", "Forest", "Earth",
-    "Arctic", "Solar", "Sunset", "Inferno", "Rose",
-    "Sakura", "Pastel", "Prism", "Graphite", "Neon",
-    "Cyberpunk", "Terminal", "Tactical", "Violet",
-    "Arcane", "Aether", "Midnight", "Onyx", "Cosmic",
-    "Eclipse", "Nova", "Obsidian", "Rust", "Ice Cream",
-    "Toxic", "Royal", "Coffee", "Lime", "Glacier",
-    "Blood Moon", "Gold", "Mint", "Shadow",
+    { class: "", name: "Light" },
+    { class: "dark", name: "Dark" },
+    { class: "ocean", name: "Ocean" },
+    { class: "aqua", name: "Aqua" },
+    { class: "forest", name: "Forest" },
+    { class: "earth", name: "Earth" },
+    { class: "arctic", name: "Arctic" },
+    { class: "solar", name: "Solar" },
+    { class: "sunset", name: "Sunset" },
+    { class: "inferno", name: "Inferno" },
+    { class: "rose", name: "Rose" },
+    { class: "sakura", name: "Sakura" },
+    { class: "pastel", name: "Pastel" },
+    { class: "prism", name: "Prism" },
+    { class: "graphite", name: "Graphite" },
+    { class: "neon", name: "Neon" },
+    { class: "cyberpunk", name: "Cyberpunk" },
+    { class: "terminal", name: "Terminal" },
+    { class: "tactical", name: "Tactical" },
+    { class: "violet", name: "Violet" },
+    { class: "arcane", name: "Arcane" },
+    { class: "aether", name: "Aether" },
+    { class: "midnight", name: "Midnight" },
+    { class: "onyx", name: "Onyx" },
+    { class: "cosmic", name: "Cosmic" },
+    { class: "eclipse", name: "Eclipse" },
+    { class: "nova", name: "Nova" },
+    { class: "obsidian", name: "Obsidian" },
+    { class: "rust", name: "Rust" },
+    { class: "icecream", name: "Ice Cream" },
+    { class: "toxic", name: "Toxic" },
+    { class: "royal", name: "Royal" },
+    { class: "coffee", name: "Coffee" },
+    { class: "lime", name: "Lime" },
+    { class: "glacier", name: "Glacier" },
+    { class: "bloodmoon", name: "Blood Moon" },
+    { class: "gold", name: "Gold" },
+    { class: "mint", name: "Mint" },
+    { class: "shadow", name: "Shadow" },
 ];
 
 
 let current = parseInt(localStorage.getItem("themeIndex") || 0);
 
 function applyTheme(index) {
-    document.body.classList.remove(...themes.filter(t => t !== ""));
-    if (themes[index] !== "") {
-        document.body.classList.add(themes[index]);
+    document.body.classList.remove(...themes.map(t => t.class).filter(c => c));
+    if (themes[index].class) {
+        document.body.classList.add(themes[index].class);
     }
-    label.textContent = `Theme: ${themeNames[index]}`;
+    label.textContent = `Theme: ${themes[index].name}`;
     localStorage.setItem("themeIndex", index);
 }
 
@@ -47,10 +67,10 @@ arrowBtn.onclick = (e) => {
     menu.classList.toggle("hidden");
 };
 
-themes.forEach((_, i) => {
+themes.forEach((theme, i) => {
     const opt = document.createElement("div");
     opt.className = "theme-option";
-    opt.textContent = themeNames[i];
+    opt.textContent = theme.name;
 
     opt.onclick = () => {
         current = i;
@@ -90,4 +110,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setInterval(showToast, 60000);
 });
-
