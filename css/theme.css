@@ -339,3 +339,687 @@ body.shadow {
     --accent-2: #999999;
     --text: #eaeaea;
 }
+
+body.hacker {
+    --bg: linear-gradient(135deg, #000000, #001a00);
+    --card: linear-gradient(135deg, #001a00, #002600);
+    --muted: #33ff99;
+    --accent: #00ff66;
+    --accent-2: #66ffcc;
+    --text: #ccffdd;
+}
+
+body.theatre {
+    --bg: linear-gradient(135deg, #1a0000, #330000);
+    --card: linear-gradient(135deg, #330000, #4d0000);
+    --muted: #d4a5a5;
+    --accent: #b30000;
+    --accent-2: #ff4d4d;
+    --text: #ffe6e6;
+}
+
+body.frostbite {
+    --bg: linear-gradient(135deg, #00111a, #002233);
+    --card: linear-gradient(135deg, #002233, #00334d);
+    --muted: #7fb3d5;
+    --accent: #00cfff;
+    --accent-2: #66e0ff;
+    --text: #e6f7ff;
+}
+
+body.grape {
+    --bg: linear-gradient(135deg, #1a001f, #2e0033);
+    --card: linear-gradient(135deg, #2e0033, #4a004d);
+    --muted: #d1a3ff;
+    --accent: #a64dff;
+    --accent-2: #d580ff;
+    --text: #f5e6ff;
+}
+
+body.desert {
+    --bg: linear-gradient(135deg, #fbe8c6, #f5d7a1);
+    --card: linear-gradient(135deg, #f5d7a1, #eac07a);
+    --muted: #a67c52;
+    --accent: #e67e22;
+    --accent-2: #f4a261;
+    --text: #3e2f1c;
+}
+
+body.biotech {
+    --bg: linear-gradient(135deg, #f0fff4, #e0ffe8);
+    --card: linear-gradient(135deg, #e0ffe8, #ccffdd);
+    --muted: #6bbf9f;
+    --accent: #00c896;
+    --accent-2: #66ffd9;
+    --text: #003d2e;
+}
+
+body.lofi {
+    --bg: linear-gradient(135deg, #2c2f33, #3a3f47);
+    --card: linear-gradient(135deg, #3a3f47, #4a505a);
+    --muted: #b0b3b8;
+    --accent: #7289da;
+    --accent-2: #99aab5;
+    --text: #f1f1f1;
+}
+
+body.storm {
+    --bg: linear-gradient(135deg, #0f2027, #203a43);
+    --card: linear-gradient(135deg, #203a43, #2c5364);
+    --muted: #a0c4ff;
+    --accent: #3a86ff;
+    --accent-2: #00b4d8;
+    --text: #e0f7ff;
+}
+
+body.watermelon {
+    --bg: linear-gradient(135deg, #ffe6e6, #ffd6d6);
+    --card: linear-gradient(135deg, #ffd6d6, #ffb3b3);
+    --muted: #6b705c;
+    --accent: #ff4d4d;
+    --accent-2: #2ecc71;
+    --text: #2b2b2b;
+}
+
+body.strawberry {
+    --bg: linear-gradient(135deg, #ffe5ec, #ffd6dc);
+    --card: linear-gradient(135deg, #ffd6dc, #ffb3c1);
+    --muted: #b56576;
+    --accent: #e63946;
+    --accent-2: #ff8fa3;
+    --text: #3a0f14;
+}
+
+body.mango {
+    --bg: linear-gradient(135deg, #fff4e6, #ffe0b2);
+    --card: linear-gradient(135deg, #ffe0b2, #ffcc80);
+    --muted: #b08968;
+    --accent: #ff9f1c;
+    --accent-2: #ffbf69;
+    --text: #3a1f00;
+}
+
+body.pineapple {
+    --bg: linear-gradient(135deg, #fffde7, #fff9c4);
+    --card: linear-gradient(135deg, #fff9c4, #fff176);
+    --muted: #a68a00;
+    --accent: #fdd835;
+    --accent-2: #c0ca33;
+    --text: #2e2a00;
+}
+
+body.orange {
+    --bg: linear-gradient(135deg, #fff3e0, #ffe0b2);
+    --card: linear-gradient(135deg, #ffe0b2, #ffcc80);
+    --muted: #b26a00;
+    --accent: #ff6d00;
+    --accent-2: #ff9e00;
+    --text: #3a1c00;
+}
+
+body.lemon {
+    --bg: linear-gradient(135deg, #fffde7, #ffffcc);
+    --card: linear-gradient(135deg, #ffffcc, #fff59d);
+    --muted: #999900;
+    --accent: #ffea00;
+    --accent-2: #cddc39;
+    --text: #2b2b00;
+}
+
+body.blueberry {
+    --bg: linear-gradient(135deg, #e3e7ff, #cdd5ff);
+    --card: linear-gradient(135deg, #cdd5ff, #aab8ff);
+    --muted: #5c6bc0;
+    --accent: #3f51b5;
+    --accent-2: #7986cb;
+    --text: #1a1f3a;
+}
+
+body.grapefruit {
+    --bg: linear-gradient(135deg, #ffe5d9, #ffd6cc);
+    --card: linear-gradient(135deg, #ffd6cc, #ffb3a7);
+    --muted: #b56576;
+    --accent: #ff5e5b;
+    --accent-2: #ff9a8b;
+    --text: #3a1414;
+}
+
+body.kiwi {
+    --bg: linear-gradient(135deg, #f4ffe0, #e6ffcc);
+    --card: linear-gradient(135deg, #e6ffcc, #ccff99);
+    --muted: #6b8e23;
+    --accent: #8bc34a;
+    --accent-2: #cddc39;
+    --text: #1f2d00;
+}
+
+body.apple {
+    --bg: linear-gradient(135deg, #ffe5e5, #ffd6d6);
+    --card: linear-gradient(135deg, #ffd6d6, #ffb3b3);
+    --muted: #8b0000;
+    --accent: #d90429;
+    --accent-2: #ef233c;
+    --text: #3a0f0f;
+}
+
+body.cherry {
+    --bg: linear-gradient(135deg, #ffe6eb, #ffd6dc);
+    --card: linear-gradient(135deg, #ffd6dc, #ffb3c6);
+    --muted: #9b2226;
+    --accent: #c9184a;
+    --accent-2: #ff4d6d;
+    --text: #3a0c14;
+}
+
+body.banana {
+    --bg: linear-gradient(135deg, #fffde7, #fff9c4);
+    --card: linear-gradient(135deg, #fff9c4, #fff176);
+    --muted: #bdb76b;
+    --accent: #f4d03f;
+    --accent-2: #f7dc6f;
+    --text: #3a3500;
+}
+
+body.coconut {
+    --bg: linear-gradient(135deg, #fafafa, #f0f0f0);
+    --card: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+    --muted: #a1887f;
+    --accent: #6d4c41;
+    --accent-2: #bcaaa4;
+    --text: #2e2a28;
+}
+
+body.papaya {
+    --bg: linear-gradient(135deg, #fff0e6, #ffe0cc);
+    --card: linear-gradient(135deg, #ffe0cc, #ffcc99);
+    --muted: #b5651d;
+    --accent: #ff7f50;
+    --accent-2: #ffb347;
+    --text: #3a1f00;
+}
+
+body.guava {
+    --bg: linear-gradient(135deg, #ffe6f0, #ffd6e8);
+    --card: linear-gradient(135deg, #ffd6e8, #ffb3d9);
+    --muted: #a64d79;
+    --accent: #ff66a3;
+    --accent-2: #ff99cc;
+    --text: #3a0f2a;
+}
+
+body.passionfruit {
+    --bg: linear-gradient(135deg, #fff3cc, #ffe599);
+    --card: linear-gradient(135deg, #ffe599, #ffd966);
+    --muted: #b8860b;
+    --accent: #ffb703;
+    --accent-2: #fb8500;
+    --text: #3a2a00;
+}
+
+body.dragonfruit {
+    --bg: linear-gradient(135deg, #ffe6f7, #ffd6f0);
+    --card: linear-gradient(135deg, #ffd6f0, #ffb3e6);
+    --muted: #a64d79;
+    --accent: #ff00aa;
+    --accent-2: #ff66cc;
+    --text: #3a0f2f;
+}
+
+body.blackberry {
+    --bg: linear-gradient(135deg, #1a001f, #2e0033);
+    --card: linear-gradient(135deg, #2e0033, #4a004d);
+    --muted: #c77dff;
+    --accent: #9d4edd;
+    --accent-2: #e0aaff;
+    --text: #f5e6ff;
+}
+
+body.raspberry {
+    --bg: linear-gradient(135deg, #ffe6eb, #ffd6dc);
+    --card: linear-gradient(135deg, #ffd6dc, #ffb3c6);
+    --muted: #a4133c;
+    --accent: #ff0a54;
+    --accent-2: #ff4d6d;
+    --text: #3a0c14;
+}
+
+body.pear {
+    --bg: linear-gradient(135deg, #f7ffe0, #efffd1);
+    --card: linear-gradient(135deg, #efffd1, #dfff9c);
+    --muted: #7a9e00;
+    --accent: #a4de02;
+    --accent-2: #76ba1b;
+    --text: #1f2d00;
+}
+
+body.plum {
+    --bg: linear-gradient(135deg, #2b0033, #3d004d);
+    --card: linear-gradient(135deg, #3d004d, #5c007a);
+    --muted: #d0a9ff;
+    --accent: #9d4edd;
+    --accent-2: #c77dff;
+    --text: #f5e6ff;
+}
+
+body.tangerine {
+    --bg: linear-gradient(135deg, #fff0e6, #ffd9b3);
+    --card: linear-gradient(135deg, #ffd9b3, #ffb366);
+    --muted: #b35a00;
+    --accent: #ff8c00;
+    --accent-2: #ffb84d;
+    --text: #3a1a00;
+}
+
+body.cranberry {
+    --bg: linear-gradient(135deg, #2a0008, #4d0014);
+    --card: linear-gradient(135deg, #4d0014, #730026);
+    --muted: #ff99aa;
+    --accent: #b3003c;
+    --accent-2: #ff4d6d;
+    --text: #ffe6eb;
+}
+
+body.lychee {
+    --bg: linear-gradient(135deg, #fff5f5, #ffecec);
+    --card: linear-gradient(135deg, #ffecec, #ffd6d6);
+    --muted: #b38b8b;
+    --accent: #ff7f7f;
+    --accent-2: #ffb3b3;
+    --text: #3a1f1f;
+}
+
+body.pomegranate {
+    --bg: linear-gradient(135deg, #1a0005, #33000f);
+    --card: linear-gradient(135deg, #33000f, #590019);
+    --muted: #ff8099;
+    --accent: #a1002b;
+    --accent-2: #ff4d73;
+    --text: #ffe6eb;
+}
+
+body.fig {
+    --bg: linear-gradient(135deg, #1c0a1c, #2e1430);
+    --card: linear-gradient(135deg, #2e1430, #4a1f4d);
+    --muted: #d4a5d4;
+    --accent: #8e44ad;
+    --accent-2: #c084d4;
+    --text: #fbefff;
+}
+
+body.cantaloupe {
+    --bg: linear-gradient(135deg, #fff4e6, #ffe0cc);
+    --card: linear-gradient(135deg, #ffe0cc, #ffc299);
+    --muted: #b37447;
+    --accent: #ff944d;
+    --accent-2: #ffb380;
+    --text: #3a1f0f;
+}
+
+body.honeydew {
+    --bg: linear-gradient(135deg, #f0fff0, #e0ffe0);
+    --card: linear-gradient(135deg, #e0ffe0, #ccffcc);
+    --muted: #66a366;
+    --accent: #66cc66;
+    --accent-2: #99ff99;
+    --text: #1f331f;
+}
+
+body.mulberry {
+    --bg: linear-gradient(135deg, #1a001a, #330033);
+    --card: linear-gradient(135deg, #330033, #590059);
+    --muted: #e699e6;
+    --accent: #b300b3;
+    --accent-2: #ff66ff;
+    --text: #ffe6ff;
+}
+
+body.apricot {
+    --bg: linear-gradient(135deg, #fff0e6, #ffd6b3);
+    --card: linear-gradient(135deg, #ffd6b3, #ffbf80);
+    --muted: #b37447;
+    --accent: #ff9933;
+    --accent-2: #ffcc99;
+    --text: #3a1f0f;
+}
+
+body.starfruit {
+    --bg: linear-gradient(135deg, #ffffe0, #fffacd);
+    --card: linear-gradient(135deg, #fffacd, #fff380);
+    --muted: #999933;
+    --accent: #e6e600;
+    --accent-2: #ffff66;
+    --text: #2b2b00;
+}
+
+body.acai {
+    --bg: linear-gradient(135deg, #14001a, #260033);
+    --card: linear-gradient(135deg, #260033, #3d005c);
+    --muted: #d9a3ff;
+    --accent: #8000ff;
+    --accent-2: #b366ff;
+    --text: #f5e6ff;
+}
+
+body.bloodorange {
+    --bg: linear-gradient(135deg, #2a0a00, #4d1400);
+    --card: linear-gradient(135deg, #4d1400, #732100);
+    --muted: #ffb199;
+    --accent: #cc3300;
+    --accent-2: #ff704d;
+    --text: #fff0e6;
+}
+
+body.tamarind {
+    --bg: linear-gradient(135deg, #1f120a, #3a2314);
+    --card: linear-gradient(135deg, #3a2314, #5c3820);
+    --muted: #c49a6c;
+    --accent: #8b4513;
+    --accent-2: #d2a679;
+    --text: #fff4e6;
+}
+
+body.soursop {
+    --bg: linear-gradient(135deg, #f7fff7, #e6ffe6);
+    --card: linear-gradient(135deg, #e6ffe6, #ccffcc);
+    --muted: #66a366;
+    --accent: #33cc66;
+    --accent-2: #99ffcc;
+    --text: #1f331f;
+}
+
+body.zest {
+    --bg: linear-gradient(135deg, #fffbe6, #fff0b3);
+    --card: linear-gradient(135deg, #fff0b3, #ffe066);
+    --muted: #b3a100;
+    --accent: #ffd000;
+    --accent-2: #ffea66;
+    --text: #3a3300;
+}
+
+body.saturn {
+    --bg: linear-gradient(135deg, #1c1b29, #2a293d);
+    --card: linear-gradient(135deg, #2a293d, #3a3952);
+    --muted: #cfc6b8;
+    --accent: #c9a66b;
+    --accent-2: #e6c07b;
+    --text: #f4f1ea;
+}
+
+body.aurora {
+    --bg: linear-gradient(135deg, #0a0f2c, #1b2f5c);
+    --card: linear-gradient(135deg, #1b2f5c, #274690);
+    --muted: #a0c4ff;
+    --accent: #80ffdb;
+    --accent-2: #64dfdf;
+    --text: #f0faff;
+}
+
+body.velvet {
+    --bg: linear-gradient(135deg, #1a0f1f, #2e1833);
+    --card: linear-gradient(135deg, #2e1833, #42244a);
+    --muted: #c8a2c8;
+    --accent: #d63384;
+    --accent-2: #ff85c1;
+    --text: #fff0f6;
+}
+
+body.candy {
+    --bg: linear-gradient(135deg, #fff0f6, #ffe4ec);
+    --card: linear-gradient(135deg, #ffe4ec, #ffd6e8);
+    --muted: #b5838d;
+    --accent: #ff4d6d;
+    --accent-2: #ff99c8;
+    --text: #3a0c1a;
+}
+
+body.midnightblue {
+    --bg: linear-gradient(135deg, #020617, #0a1f44);
+    --card: linear-gradient(135deg, #0a1f44, #132c6b);
+    --muted: #9bbcff;
+    --accent: #3f8cff;
+    --accent-2: #82b1ff;
+    --text: #eaf2ff;
+}
+
+body.lavender {
+    --bg: linear-gradient(135deg, #f5f3ff, #ede9fe);
+    --card: linear-gradient(135deg, #ede9fe, #ddd6fe);
+    --muted: #7c6f9b;
+    --accent: #a78bfa;
+    --accent-2: #c4b5fd;
+    --text: #2b2540;
+}
+
+body.bubblegum {
+    --bg: linear-gradient(135deg, #ffe4f1, #ffd6eb);
+    --card: linear-gradient(135deg, #ffd6eb, #ffc2e2);
+    --muted: #a65c7b;
+    --accent: #ff5da2;
+    --accent-2: #ff9ecf;
+    --text: #3d0f23;
+}
+
+body.jungle {
+    --bg: linear-gradient(135deg, #041f1e, #0b3d3b);
+    --card: linear-gradient(135deg, #0b3d3b, #146c67);
+    --muted: #9ad1c6;
+    --accent: #2ec4b6;
+    --accent-2: #90dbf4;
+    --text: #e8fffb;
+}
+
+body.peach {
+    --bg: linear-gradient(135deg, #fff1e6, #ffe5d9);
+    --card: linear-gradient(135deg, #ffe5d9, #ffd6c8);
+    --muted: #b07d62;
+    --accent: #ff7f50;
+    --accent-2: #ffb4a2;
+    --text: #3a1f14;
+}
+
+body.skyline {
+    --bg: linear-gradient(135deg, #0f172a, #1e293b);
+    --card: linear-gradient(135deg, #1e293b, #334155);
+    --muted: #94a3b8;
+    --accent: #38bdf8;
+    --accent-2: #7dd3fc;
+    --text: #e2e8f0;
+}
+
+body.radioactive {
+    --bg: linear-gradient(135deg, #0b1f00, #1f3d00);
+    --card: linear-gradient(135deg, #1f3d00, #3f7300);
+    --muted: #caff00;
+    --accent: #aaff00;
+    --accent-2: #38ff00;
+    --text: #f7ffe0;
+}
+
+body.ember {
+    --bg: linear-gradient(135deg, #1a0a00, #3d1400);
+    --card: linear-gradient(135deg, #3d1400, #662200);
+    --muted: #ffb199;
+    --accent: #ff5400;
+    --accent-2: #ff8c42;
+    --text: #fff2eb;
+}
+
+body.glow {
+    --bg: linear-gradient(135deg, #0f0f0f, #1f1f1f);
+    --card: linear-gradient(135deg, #1f1f1f, #2e2e2e);
+    --muted: #cfcfcf;
+    --accent: #ffffff;
+    --accent-2: #9ae6ff;
+    --text: #f9f9f9;
+}
+
+body.iceberg {
+    --bg: linear-gradient(135deg, #e0f7ff, #cceeff);
+    --card: linear-gradient(135deg, #cceeff, #b3e5fc);
+    --muted: #5c8ca8;
+    --accent: #00bcd4;
+    --accent-2: #4dd0e1;
+    --text: #012f3a;
+}
+
+body.dracula {
+    --bg: linear-gradient(135deg, #0d0d0d, #1a1a2e);
+    --card: linear-gradient(135deg, #1a1a2e, #2a2a4a);
+    --muted: #b8b8ff;
+    --accent: #ff79c6;
+    --accent-2: #8be9fd;
+    --text: #f8f8f2;
+}
+
+body.flamingo {
+    --bg: linear-gradient(135deg, #ffe4e1, #ffd1dc);
+    --card: linear-gradient(135deg, #ffd1dc, #ffb6c1);
+    --muted: #a85c6c;
+    --accent: #ff5c8a;
+    --accent-2: #ff9bb3;
+    --text: #3f1a23;
+}
+
+body.marine {
+    --bg: linear-gradient(135deg, #001f3f, #003366);
+    --card: linear-gradient(135deg, #003366, #004c99);
+    --muted: #99ccff;
+    --accent: #0074d9;
+    --accent-2: #7fdbff;
+    --text: #e6f2ff;
+}
+
+body.amethyst {
+    --bg: linear-gradient(135deg, #1f0033, #330066);
+    --card: linear-gradient(135deg, #330066, #4d0099);
+    --muted: #d0a9ff;
+    --accent: #a855f7;
+    --accent-2: #c084fc;
+    --text: #f5edff;
+}
+
+body.bronze {
+    --bg: linear-gradient(135deg, #2d1b0e, #4a2c1a);
+    --card: linear-gradient(135deg, #4a2c1a, #6b3e26);
+    --muted: #d2a679;
+    --accent: #cd7f32;
+    --accent-2: #e0ac69;
+    --text: #fff4e6;
+}
+
+body.sapphire {
+    --bg: linear-gradient(135deg, #02075d, #0a1172);
+    --card: linear-gradient(135deg, #0a1172, #1a2aff);
+    --muted: #a3bffa;
+    --accent: #3b82f6;
+    --accent-2: #60a5fa;
+    --text: #eef2ff;
+}
+
+body.toffee {
+    --bg: linear-gradient(135deg, #2c1b12, #4b2e1f);
+    --card: linear-gradient(135deg, #4b2e1f, #6b4226);
+    --muted: #d2b48c;
+    --accent: #c68642;
+    --accent-2: #e6be8a;
+    --text: #fff6ee;
+}
+
+body.blossom {
+    --bg: linear-gradient(135deg, #fff0f3, #ffe5ec);
+    --card: linear-gradient(135deg, #ffe5ec, #ffd6e0);
+    --muted: #b5838d;
+    --accent: #ff758f;
+    --accent-2: #ffb3c6;
+    --text: #3a0f1f;
+}
+
+body.void {
+    --bg: linear-gradient(135deg, #000000, #0a0a0a);
+    --card: linear-gradient(135deg, #0a0a0a, #141414);
+    --muted: #777;
+    --accent: #444;
+    --accent-2: #aaa;
+    --text: #f5f5f5;
+}
+
+body.berry {
+    --bg: linear-gradient(135deg, #2b001f, #4d0039);
+    --card: linear-gradient(135deg, #4d0039, #73004d);
+    --muted: #ff99cc;
+    --accent: #ff0066;
+    --accent-2: #ff66a3;
+    --text: #ffe6f2;
+}
+
+body.seafoam {
+    --bg: linear-gradient(135deg, #e0fff7, #ccfff2);
+    --card: linear-gradient(135deg, #ccfff2, #b3ffea);
+    --muted: #4f9e8a;
+    --accent: #20c997;
+    --accent-2: #63e6be;
+    --text: #003d2e;
+}
+
+body.charcoal {
+    --bg: linear-gradient(135deg, #121212, #1f1f1f);
+    --card: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+    --muted: #aaa;
+    --accent: #888;
+    --accent-2: #ccc;
+    --text: #f0f0f0;
+}
+
+body.turquoise {
+    --bg: linear-gradient(135deg, #e0ffff, #ccf5ff);
+    --card: linear-gradient(135deg, #ccf5ff, #b3ecff);
+    --muted: #4f9ea8;
+    --accent: #00ced1;
+    --accent-2: #40e0d0;
+    --text: #003a3d;
+}
+
+body.honey {
+    --bg: linear-gradient(135deg, #fff8e1, #ffecb3);
+    --card: linear-gradient(135deg, #ffecb3, #ffe082);
+    --muted: #a68a00;
+    --accent: #ffc107;
+    --accent-2: #ffb300;
+    --text: #3a2f00;
+}
+
+body.plasma {
+    --bg: linear-gradient(135deg, #12001a, #240033);
+    --card: linear-gradient(135deg, #240033, #3a005c);
+    --muted: #ff99ff;
+    --accent: #ff00ff;
+    --accent-2: #cc00ff;
+    --text: #ffe6ff;
+}
+
+body.moss {
+    --bg: linear-gradient(135deg, #1a2b1a, #2f4f2f);
+    --card: linear-gradient(135deg, #2f4f2f, #3d6b3d);
+    --muted: #b2d8b2;
+    --accent: #6b8e23;
+    --accent-2: #9acd32;
+    --text: #f0fff0;
+}
+
+body.emberglow {
+    --bg: linear-gradient(135deg, #2a0a00, #4d1a00);
+    --card: linear-gradient(135deg, #4d1a00, #7a2e00);
+    --muted: #ffb199;
+    --accent: #ff6a00;
+    --accent-2: #ff9e42;
+    --text: #fff3e6;
+}
+
+body.dream {
+    --bg: linear-gradient(135deg, #f0f8ff, #e6f0ff);
+    --card: linear-gradient(135deg, #e6f0ff, #d6e4ff);
+    --muted: #7a8fbf;
+    --accent: #6c63ff;
+    --accent-2: #a5b4fc;
+    --text: #1f2a44;
+}
